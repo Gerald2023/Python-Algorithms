@@ -32,3 +32,11 @@ print (math.sqrt (4))
 print (math.pow(2,3))
 
 # Max / Mint Int
+float("inf")
+float("-inf")
+
+# Python numbers are infinite so they never overflow
+print(math.pow(2, 200))
+
+# But still less than infinity
+print(math.pow(2, 200) < float('inf'))
