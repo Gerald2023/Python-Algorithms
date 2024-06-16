@@ -50,7 +50,7 @@ print(a, b, c)
 # Loop through arrays
 nums = [1, 2, 3]
 
-# Using index
+print("Using index")
 for i in range(len(nums)):
     print(nums[i])
 
